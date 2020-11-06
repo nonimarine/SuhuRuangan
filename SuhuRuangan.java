@@ -50,7 +50,7 @@ public class SuhuRuangan {
 		 }
 	 
 			 private String getCategory(int suhu) {
-			 if (suhu >= 0)
+			 if (suhu <= 0)
 			 return "Beku";
 			 
 			 else if (suhu >= 1 && suhu <= 10)
